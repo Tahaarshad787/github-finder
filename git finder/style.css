@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    background-color: rgb(240, 242, 247); /* Light gray background for a clean look */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Centering the content */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Title Styles */
+
+
+.custom-heading {
+    color: rgb(255, 99, 71);  /* Example: Tomato Red */
+}
+
+
+/* Search Container */
+.search-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#searchInput {
+    width: 70%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button Styles */
+#searchBtn {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(34, 193, 195); /* Teal background using RGB */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchBtn:hover {
+    background-color: rgb(253, 187, 45); /* Hover effect: Yellow color using RGB */
+}
+
+
+/* Profile Card */
+.profile-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-card h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.profile-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Profile Button Styles */
+.profile-card .btn {
+    background-color: rgb(34, 193, 195); /* Teal background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.profile-card .btn:hover {
+    background-color: rgb(253, 187, 45); /* Yellow on hover */
+}
+
+/* Badge Styles for Public Repos, Followers, Following */
+.profile-card .badge {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Public Repos - Green */
+.profile-card .badge.bg-success {
+    background-color: rgb(206, 124, 61); /* Green color */
+}
+
+/* Followers - Blue */
+.profile-card .badge.bg-primary {
+    background-color: rgb(0, 123, 255); /* Blue color */
+}
+
+/* Following - Orange */
+.profile-card .badge.bg-warning {
+    background-color: rgb(255, 159, 64); /* Orange color */
+    color: white;
+}
+
+/* Error Message */
+.text-danger {
+    color: rgb(220, 53, 69); /* Red color for errors */
+    font-size: 16px;
+}
+
